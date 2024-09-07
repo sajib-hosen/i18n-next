@@ -5,6 +5,8 @@ import React from "react";
 import { login, logout } from "../cookiesHandler/server.wrapper";
 // import { Link } from "../../../i18n/routing";
 
+// thanks to >> https://next-intl-docs.vercel.app/
+
 const page = () => {
     return (
         <div className=" text-center">
