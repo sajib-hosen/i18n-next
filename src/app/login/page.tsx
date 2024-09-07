@@ -5,7 +5,9 @@ import React from "react";
 import { login, logout } from "../cookiesHandler/server.wrapper";
 // import { Link } from "../../../i18n/routing";
 
-// thanks to >> https://next-intl-docs.vercel.app/
+// thanks to
+// >> https://next-intl-docs.vercel.app/
+// >> https://chatgpt.com/c/66dbbfe0-b638-8010-930e-2005cc059627
 
 const page = () => {
     return (
