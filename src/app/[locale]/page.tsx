@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function HomePage() {
     const t = useTranslations("HomePage");
     return (
-        <div className=" text-center">
+        <div className=" text-center p-10">
             <h1>{t("title")}</h1>
 
             <WLink href="/about">{t("about")}</WLink>
